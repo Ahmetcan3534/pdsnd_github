@@ -26,7 +26,7 @@ def get_filters():
         city = input('Invalid city. Please check spelling. Chicago, New York City or Washington.')
 
     # TO DO: get user input for month (all, january, february, ... , june)
-    month = input('Please select month: all, january, february, march, april, may or june.')
+    month = input('Please select a month: all, january, february, march, april, may or june.')
     while month.lower() not in ['all', 'january', 'february', 'march', 'april', 'may', 'june']: #spelling check
         month = input('Invalid month. Please check spelling. all, january, february, march, april, may or june.')
 
